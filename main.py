@@ -222,7 +222,8 @@ def main():
 
         else:
             st.title("Chat with HealthMate")
-            st.info(f'Welcome {st.session_state['first_name']} {st.session_state['last_name']} !!')
+            st.info(f"Welcome {st.session_state['first_name']} {st.session_state['last_name']} !!")
+
             st.write("Describe your symptoms, ask for a diagnosis, or simply say hello!")
 
             if 'messages' not in st.session_state:
