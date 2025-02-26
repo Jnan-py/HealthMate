@@ -27,8 +27,6 @@
    cd Healthmate
    ```
 
-````
-
 2. **Create a Virtual Environment (Recommended):**
 
    ```bash
